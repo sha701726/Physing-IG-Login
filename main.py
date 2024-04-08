@@ -16,23 +16,6 @@ def file_exists(file_path):
 def hello():
     return render_template("index.html")
 
-@app.route("/Images/logo.png")
-def logo_image():
-    urla = url_for("Images", filename="logo.png")
-    return render_template('index.html', image=urla)
-
-@app.route("/Images/googlePlay.png")
-def google_play_image():
-    urlb = url_for("Images", filename="googlePlay.png")
-    return render_template('index.html', image=urlb)
-
-@app.route("/Images/microsoft.png")
-def microsoft_image():
-    urlc = url_for("Images", filename="microsoft.png")
-    return render_template('index.html', image=urlc)
-
-
-
 @app.route("/submit", methods=["POST"])
 def submit():
     if request.method == "POST":
