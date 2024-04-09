@@ -1,6 +1,8 @@
 # Project Title
+I will tell you later.
 
-A brief description of what this project does and who it's for
+<h3>Disclaimer</h3>
+The IG-phishing-page, on GitHub is for educational purposes only. I take no responsibility for its usage by third parties, and any illegal activities are strictly prohibited. Users must comply with security and privacy policies of social media platforms and obtain proper authorization. The toolkit may contain potentially harmful materials. Use at your own risk, adhering to relevant laws and regulations.
 
 ## Table of Contents
 
@@ -10,3 +12,9 @@ A brief description of what this project does and who it's for
 - [License](#license)
 
 ## Installation
+<h4> only for windows user: </h4>
+git clone https://github.com/sha701726/Physing-IG-Login.git
+cd Physing-IG-Login
+pip install -r requirements.txt
+chmod main.py
+python main.py
