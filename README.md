@@ -11,7 +11,7 @@ The Physing-IG-Login, on GitHub is for educational purposes only. I take no resp
 
 ## Usage
 <h2>Here I Provide detailed instructions on how to use your tool:-</h2>
-##Installation
+## Installation
 <h4>FOR WINDOWS USER: </h4>
 <p>git clone https://github.com/sha701726/Physing-IG-Login.git</p>
 <p>cd Physing-IG-Login</p>
